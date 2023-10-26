@@ -12,9 +12,15 @@ My entry into 2023s Interactive Fiction Competition (https://ifcomp.org/)
 Copyright 2023 David L Horton (writing as David Lee)
 Released under Creative Commons Attribution Share-Alike 4.0 International
 https://creativecommons.org/licenses/by-sa/4.0/
-    
+
+## Play
+
+Use the [web-based parser](https://davescodemusings.github.io/abandon-ship/) hosted on GitHub Pages.
+
+## Hack
+
 How to use these files to recreate the game:
-1.  Open the Inform 7 application.
+1.  Open the [Inform 7 application](https://ganelson.github.io/inform-website/).
 2.  Click File > New Project (CTRL + N)
 3.  Enter _AbandonShip_ for the name of the project and click Start.
 4.  Delete all text in the Source pane of Inform 7 and replace it with the contents of `story.txt`
