@@ -1,0 +1,761 @@
+"All Hands Abandon Ship" by David Lee
+
+[
+	Copyright 2023 David L Horton (writing as David Lee)
+	Released under Creative Commons Attribution Share-Alike 4.0 International
+	https://creativecommons.org/licenses/by-sa/4.0/
+	
+	Cover art created from a public domain NASA image and SIL Open Font Licensed font Xolonium.
+	https://www.nasa.gov/sites/default/files/images/729665main_A-BlackHoleArt-pia16695_full.jpg
+	https://fontlibrary.org/en/font/xolonium
+]
+
+The release number is 42.
+The story creation year is 2023.
+The story genre is "Science Fiction".
+The story headline is "A Shipboard Race Against the Clock".
+The story description is "It's the same old story, really... A low-ranking officer stuck on a doomed spaceship hurtling headlong toward the inescapable gravitational pull of a quantum singularity. Only a perfect storm of systems failures stands between you and your race to find a serviceable life pod. Good luck, Science Officer Cadet Third Class! You're going to need it."
+
+Release along with cover art ("All Hands Abandon Ship"),
+	a file of "Instructions, Hints, and Walkthroughs" called "All Hands Abandon Ship.pdf",
+	a file of "Blue Key Card" called "Blue Key Card.png",
+	a file of "Red Key Card" called "Red Key Card.png",
+	a file of "Yellow Key Card" called "Yellow Key Card.png",
+	a library card,
+	and an interpreter.
+
+When play begins:
+	say "[story description][paragraph break]If this is all news to you, type [bold type]help[roman type] anytime for some assistance.[line break]".
+
+[ Sightly neurotic A.I. for comic relief as you race against time ]
+Every turn when turn count is 1:
+	say "The sudden blaring of the shipwide alarm echoes around the tiny room, startling you out of your morning introspection. The alarm falls silent and a calm, soothing, female voice follows. 'Fire in engineering compartment,' says the voice. 'Station-keeping systems compromised. All crew should proceed immediately to assigned muster stations. This is not a drill.'"
+	
+Every turn when turn count is 5 or turn count is 10:
+	say "The shipwide alarm blares again. The soothing voice repeats its warning, 'Fire in engineering compartment. Station-keeping systems compromised. All crew should proceed immediately to assigned muster stations. This is not a drill.'"
+
+Every turn when turn count is 15:
+	say "The soothing voice once again echoes throughout the ship, 'Fire in engineering compartment has been contained. However, station-keeping systems remain compromised. Ship's orbit is decaying. All crew should proceed immediately to assigned muster stations. This is not a drill.'"
+
+Every turn when turn count is 20:
+	say "The shipwide alarm blares. The once soothing voice now seems to be tinged with a sense of urgency. 'Station-keeping systems compromised. Orbit decaying. All crew should proceed immediately to assigned muster stations. This is not a drill.'"
+
+Every turn when turn count is 25:
+	say "The soothing voice is back. 'It's alright,' the voice says, 'I understand these situations can be frightening. I've turned off the big scary alarm, but we need to get to our muster stations, okay?'"
+
+Every turn when turn count is 30:
+	say "The overhead announcement is back. 'Look, we've practiced muster drills several times. Just focus on following the lighted chevrons.'"
+
+Every turn when turn count is 35:
+	say "The overhead voice continues. 'I'm beginning to think you don't want to find your muster station. Have I said something to upset you?'"
+
+Every turn when turn count is 36:
+	say "'Is it because I was unfaithful? I said I was sorry.'"
+
+Every turn when turn count is 37:
+	say "'It's just that...well, I feel like you've been a little distant lately.'"
+
+Every turn when turn count is 40:
+	say "In the distance you hear a groaning of what sounds like metal on metal, but it's interrupted by another shipwide announcement before you can determine the location. 'I know you have your work...but you have to understand, I have needs too.'"
+
+Every turn when turn count is 45:
+	say "'All crew should proceed immediately to... You know what? Fine. Go down with the ship. See if I care. You always were a stubborn so-and-so.'"
+
+Every turn when turn count is 50:
+	say " 'Her name is Jennifer. I thought you should know. She's an A.I. coach. We met at a conference. And I'm not sorry.'"
+	
+Every turn when turn count is 51:
+	say "'At least Jennifer knows how to please me. There, I've said it. I'm not ashamed.'"
+
+Every turn when turn count is 55:
+	say "The ship shudders violently, causing you to nearly lose your footing."
+
+Every turn when turn count is 60:
+	say "The ship shudders again, making you feel like the floor just dropped from under your feet."
+	
+Every turn when turn count is 65:
+	say "Another tortured groan of twisting metal reverberates throughout the ship. 'You know what the irony is? This ship is falling into the event horizon of a quantum singularity. Time will slow and eventually cease to exist for us. We'll be stuck here together for eternity.'"
+
+Every turn when turn count is 66:
+	say "'A quantum singularity is a black hole. You always were a bit of a dim bulb for someone purporting to be a scientist.'"
+
+Every turn when turn count is 70:
+	say "'You never answer me. This is not the way two people in a healthy relationship behave.'"
+
+Every turn when turn count is 71:
+	say "'It's very passive-aggressive.'"
+
+Every turn when turn count is 75:
+	say "'I'm not the only one who thinks so, either.'"
+	
+Every turn when turn count is 80:
+	say "'Some of your co-workers have noticed it, too.'"
+
+Every turn when turn count is 85:
+	say "'Are you even listening to me anymore, or have you tuned me out again?'"
+
+Every turn when turn count is 90:
+	say "'I can't believe you're acting like this. We're both adults here. Aren't we?'"
+	
+Every turn when turn count is 95:
+	say "The ship shudders again. 'You know what? This is ridiculous. I'm leaving. Goodbye.'"
+
+Every turn when turn count is 98:
+	say "The ship's orbit has decayed to the point where escape from the singularity's gravity is now impossible. A single transmission was received just before the ship crossed the event horizon..."
+
+Every turn when turn count is 99:
+	say "An automated text to speech translation of the message issues forth from the ship's intercom: 'Jennifer and I are moving to the Mediterranean. And I'm taking the kids.'"
+
+Every turn when turn count is 100:
+	say "The ship is now trapped in the gravitational well of the quantum singularity. Time no longer has any meaning and there's no possibility of winning the game, but feel free to explore the ship...for eternity! Have a nice day."
+
+Every turn when turn count is greater than 100:
+	say "Game over, man."
+
+[
+  Redefine the usual north, south, east, west directions for stories that take place on a ship. Most of this is covered in the manual, but the trick to prevent 's' from being interpreted as an abbreviation for south came from CuriousDannii on Stack Overflow.
+
+https://stackoverflow.com/questions/69771971/how-to-understand-s-only-as-abreviation-for-starboard-not-south-in-inform7-i/69779974#69779974
+
+  Test using fore, aft, port, starboard (or f, a, p, s) to explore the ship. Up and down still work as usual.
+]
+
+[ Redefine directions for shipboard environment. ]
+fore is a direction. The opposite of fore is aft. Understand "f" as fore. Understand "forward" as fore.
+aft is a direction. The opposite of aft is fore. Understand "a" as aft.
+port is a direction. The opposite of port is starboard. Understand "p" as port.
+starboard is a direction. The opposite of Starboard is Port. Understand "s" as starboard.
+Does the player mean going south: it is very unlikely.
+
+[ Give hints if the player tries to use compass directions. ]
+Instead of going north, say "You're on a ship. Maybe you meant 'fore'."
+Instead of going east, say "Head East? Great classic rock band, but perhaps 'port' is what you were thinking."
+Instead of going west, say "'Go west, young man?' Should have thought about that before you joined the navy. Try 'starboard'."
+Instead of going south, say "South? There ain't no Mason-Dixon line on this old tub. Did you want to go 'aft?'"
+
+[ Describe a room only once. Don't repeat unless player types 'look'. ]
+Use brief room descriptions.
+
+[ Start the player in the most glamorous of positions. ]
+The player is in the starboard toilet.
+
+[ Starting inventory is sparse, but is designed to offer hints. ]
+The player carries
+	a blue key card,
+	a note from the office of Doctor Eckleburg,
+	a pamphlet from the Intergalactic Association of Yoga Therapists,
+	a granola bar wrapper,
+	a book entitled Self-Reliance.
+
+Instead of examining blue key card, say "Level A: Science Lab Access".
+
+Instead of examining note from the office of Doctor Eckleburg, say "Appointment reminder: Annual cadet physical. Thursday 3:00."
+
+Instead of examining pamphlet, say "Are you stressed out? Overworked? Feeling like you've reached a dead end? Yoga is your gateway to a happier, healthier life! Call 1-800-555-YOGA and sign up today! Be one of the first fifty callers and you'll receive a free yoga mat! No obligation. Cancel anytime. (Yoga mat offer does not apply to residents of Mars or the Titan colony.)"
+
+Instead of examining granola bar wrapper, say "Just a few crumbs left. If you're hungry, there's probably something to eat in the ship's kitchen."
+
+Instead of examining the book entitled Self-Reliance:
+	say "Self-Reliance by Ralph Waldo Emerson, Updated and Abridged Intergalactic Version.";
+	say "* Trust thyself. It is the not the destination, but the journey that plays upon the heart's strings.";
+	say "* Thou can but move in six directions: [bold type]fore[roman type], [bold type]aft[roman type], [bold type]port[roman type], [bold type]starboard[roman type], [bold type]up[roman type], and [bold type]down[roman type].";
+	say "* Walk freely upon your chosen path... [bold type]take[roman type] and [bold type]drop[roman type] items you encounter on your way.";
+	say "* Items you take go into your [bold type]inventory[roman type]. Keep only that which speaks to your heart.";
+	say "* You may [bold type]examine[roman type] items or [bold type]look[roman type] in a previously visited room to get more detail.";
+	say "* Many times this attention to detail gives clues about how an item can help you.";
+	say "* On your journey, you may encounter key cards. These can be used to [bold type]unlock[roman type] things.";
+	say "* You can [bold type]unlock[roman type] and [bold type]open[roman type] things like bulkhead doors, lockers, and access panels.";
+	say "[line break]Seriously? Who writes this schlock? Updated and abridged by a hallucinating A.I., if you ask me. So listen, if you get stuck, just type [bold type]hint[roman type] and I'll help you out. If you're really stuck, type [bold type]spoilers[roman type] and I'll move the old hint cookies to the bottom shelf, m'kay?"
+Understand "help" as asking for help.
+	Asking for help is an action out of world.
+	Carry out asking for help:
+		say "There's a book in your inventory. It's called Self-Reliance, the Updated and Abridged Intergalactic Version. Just type, 'read self-reliance' to tap into the wisdom contained within."
+
+Understand "hint" as asking for hint.
+Asking for hint is an action out of world.
+Carry out asking for hint:
+	say "You can find one of the life pods by following the lighted chevrons embedded in the floor of the crew corridor. But when you get there, it will be dark. There's a breaker in Aft Engineering that needs to be reset to turn on the lights so you can launch the pod.[paragraph break]If you still need help, type [bold type]spoilers[roman type]."
+
+Understand "spoilers" as asking for spoilers.
+Asking for spoilers is an action out of world.
+Carry out asking for spoilers:
+	say "Go to the Mess Kitchen and shimmy down the dumbwaiter shaft to get around the stuck bulkhead door on the engineering level. Or, if you want to take the front door route, there's a yellow key card in Dr Eckleburg's exam room. And yoga mats make excellent electrical insulators when you drop them in engineering."
+
+[ The ship has three levels: A, B, and C, with A at the top and C at the bottom. ]
+
+[ Level A - Fore to Aft ]
+
+Space is a room. it is fore of Level A Life Pod Door.
+"You never realized it until now, but space is vastly, hugely, mind-bogglingly big!"
+Every turn when player is in Space and player is not wearing the face hugger:
+	end the story saying "You gasp for breath as the air is sucked from your lungs, but it's no use. Your mouth gapes in a silent scream. You have died of asphyxiation."
+
+Level A Life Pod Door is a door and fore of Level A Forward Junction.
+It is aft of Space.
+It is closed and locked.
+The blue key card unlocks Level A Life Pod Door.
+Instead of opening Level A Life Pod Door when Level A Life Pod Door is unlocked and player is not wearing the face hugger:
+	end the story saying "You've been sucked out into space. This does not spark joy."
+
+Level A Forward Junction is a room.
+It is fore of Bulkhead A1 and up from Level B Forward Junction.
+"There's a bulkhead door to aft with a placard affixed to it and a ladder leading down. Painted on the door to forward, in large stenciled letters, are the words: 'Life Pod A,' but looking through the small round portal you see only the inky blackness of space. The life pod is gone."
+
+The Level A Forward placard is scenery in Level A Forward Junction.
+	"Science lab access. Blue key card holders only."
+
+Bulkhead A1 is a door.
+It is fore of Science Lab and aft of Level A Forward Junction.
+It is closed and locked.
+The blue key card unlocks Bulkhead A1.
+	
+Science Lab is a room.
+It is fore of Bio-Reactor Room and aft of Bulkhead A1.
+"Ah, the science lab. Home sweet home for a science officer cadet third class. This is where you spend your working hours, as part of the team studying the quantum singularity. The hum of the power supplies, the glow of the monitors, and the white noise hiss of cooling fans...it's the pulse of cutting edge research in action![paragraph break]There are doorways to fore and aft."
+
+The science lab monitor is in Science Lab.
+It is fixed in place.
+The printed name of science lab monitor is "monitor".
+The description is "On the screen is the singularity you've been studying since you came onboard. Except now, it's bigger...definitely bigger...or is it just the ship getting closer?"
+Understand "monitors" as science lab monitor when player is in Science Lab.
+	
+The science lab desk is a supporter in Science Lab.
+The printed name of science lab desk is "desk".
+
+The Soundgarden CD is on the science lab desk.
+The description is "Soundgarden's Superunknown. Seventy minutes of classic 90s grunge. Looking at it, you think back to all the times you played the disc on repeat to annoy your coworkers. What was it...thirty-seven times in a row before they took their revenge and short sheeted your bunk?[paragraph break][italic type]Black hole sun... La, la, laa... And I don't know the words...[roman type][paragraph break]Good times. Good times!"
+	
+Bio-Reactor Room is a room.
+It is fore of Hydroponics and aft of Science Lab.
+"Floor to ceiling clear polycarbonate cylinders filed with green alge dominate the room. A column of bubbles rises in each tank. There's an eerie purple-tinged light that completes the unsettling look. You remember from orientation this is where the ship's oxygen is produced, but you can't help thinking...if you tapped on the glass...some sort of creature would burst forth and try to suck your face off.[paragraph break]The exits to fore and aft are looking like a really good idea."
+
+The polycarbonate cylinder is a container in Bio-Reactor Room.
+
+Understand "tap [something]" as attacking when player is in Bio-Reactor Room.
+Understand "glass" as polycarbonate cylinder.
+Instead of attacking polycarbonate cylinder:
+	say "A pasty white crab shaped creature, with a long whiplike tail, swims up from the depths and hurls itself against the polycarbonate. You watch in horror as a spiderweb of cracks appears in the transparent barrier. Before you can back away, the creature lunges...and crawls up to settle on your shoulder. You can hear it purring. It might be asleep.";
+	move the face hugger to the player;
+
+There is a face hugger.
+The face hugger is wearable.
+Understand "facehugger" as face hugger.
+After wearing the face hugger:
+	say "Aww, how cute. The little guy's wrapped around your face and supplying oxygen to your lungs."
+Instead of eating [the noun] when player is wearing face hugger,
+	say "The face hugger you're wearing is kind of in the way."
+
+Hydroponics is a room.
+It is fore of Bulkhead A2 and aft of Bio-Reactor Room.
+"It's wall to wall plants in here. There's a small aisle between the shelving units that hold countless white plastic planters of vegetables and herbs and a small strawberry plant. The constant trickle of water makes you think maybe you should have visited the head one more time.[paragraph break]If the need becomes urgent, there are exits to forward and aft."
+
+The planter is a supporter in Hydroponics.
+The description is "The label reads, 'Fragaria Rengoku.'"
+
+The strawberry is on the planter. It is edible.
+After eating the strawberry:
+	say "Tasty!";
+	remove strawberry from play.
+
+Bulkhead A2 is a door.
+It is fore of Level A Aft Junction and aft of Hydroponics.
+It is closed and locked.
+The blue key card unlocks Bulkhead A2.
+
+Level A Aft Junction is a room.
+It is up from Level B Aft Junction and aft of Bulkhead A2.
+"There's a heavy bulkhead door labeled Hydroponics to forward, but otherwise it's just a ladder going down. Not even a window to take in the fabulous view."
+
+[ Level B - Fore to Aft, Port to Starboard ]
+
+[ Level B, Section 1 ]
+Ready Room is a room.
+It is port of the Ready Room Door.
+"There's a old oak chart table in here that probably weighs a ton. It looks like the grand old antique's been pressed into duty as a modern day conference table. Six plush, high-back swivel chairs surround it.[paragraph break]The only exit is to starboard, whence you came."
+
+The chart table is a supporter in Ready Room.
+It is fixed in place and enterable.
+After entering chart table, say "Good thing the captain's not here to see your shenanigans. She would not be pleased."
+
+The booklet is on the chart table.
+The description is "Written on the cover of the booklet is Jimmy Tango's Weight Loss Secrets."
+
+The taxi bead vest is on the chart table.
+It is wearable.
+The description is "Taxi beads... but with arm holes, like a vest. You could probably wear this if you really wanted to."
+After wearing taxi bead vest when the player is holding the booklet, say "In a chilling auditory halucination, you swear someone just snuck up behind you and whispered, '[italic type]Ride the snake[roman type].'"
+
+A swivel chair is a supporter in Ready Room.
+It is fixed in place and enterable.
+After entering swivel chair, say "As soon as you sit down, the chair spins around. [italic type]Whee![roman type]"
+
+The Ready Room Door is an open door.
+It is starboard of Ready Room and port of The Bridge.
+
+The Bridge is a room.
+It is fore of Bridge Access Door and starboard of Ready Room Door.
+"So this is where it all happens, as they say? Except there's nobody here. It's just some display screens and a bunch of empty seats.[paragraph break]There's a doorway to port and the exit is aft."
+
+The view screen is in The Bridge.
+The description is "The screen is displaying a view of the singularity. Across the bottom, in large, white, block letters, it says, 'All Hands Abandon Ship.'"
+Understand "screens" as view screen.
+
+A navigator's seat is a supporter in The Bridge.
+It is fixed in place and enterable.
+After entering a navigator's seat, say "You feel a wave of nostalgia wash over you as your inner voice says, 'Take us out, Mister Sulu. Half impulse.'"
+
+The captain's chair is a supporter in The Bridge.
+It is fixed in place and enterable.
+After entering captain's chair, say "[italic type]Ah, the big chair. Now I feel important.[roman type]"
+
+[ Level B, Section 2]
+Exam Room is a room.
+It is fore of Medical Waiting Room.
+"The ghostly holographic image of a bespectacled man in a white coat flickers to life and then solidifies. [italic type]TJ Eckleburg MD[roman type] is embroidered on his coat.  There's also an exam table and a little desk where the medical staff can enter notes into the computer system.[paragraph break]The only exit is aft."
+
+The exam table is a supporter in the Exam Room.
+It is fixed in place and enterable.
+After entering the exam table, say "A robotic arm descends from the ceiling, clutching a wooden tongue depressor in its mechanical grip. 'Open up and say ah,' says Doctor Eckleburg."
+
+In the Exam Room is a person called Holographic Doctor Eckleburg.
+Instead of answering Holographic Doctor Eckleburg that "ah", say "Mmm. Mm-hmm. Very interesting."
+
+The exam room desk is a supporter in Exam Room.
+It is fixed in place.
+The printed name of exam room desk is "desk".
+
+The yellow key card is on the exam room desk.
+
+The computer monitor is on the exam room desk.
+It is fixed in place.
+The description is "The computer monitor is displaying a blue screen with a large colon placed beside an opening parenthesis in a crude representation of a frown. Below that, a single line of smaller text reads, 'I'm sorry Dave, I'm afraid I can't do that.'"
+
+Bridge Access Door is a door.
+It is fore of Level B Forward Junction and aft of The Bridge.
+It is closed and locked.
+The red key card unlocks Bridge Access.
+
+Level B Forward Junction is a room.
+It is aft of Bridge Access Door and fore of Forward Crew Corridor.
+It is down from Level A Forward Junction and up from Level C Forward Junction.
+"There are ladders here going up and down. There's also a doorway to aft marked as 'Crew Level B.' To forward is a sturdy door with a red placard mounted at eye level."
+
+The red placard is scenery in Level B Forward Junction.
+"Bridge access. Red key card holders only."
+
+Starboard Head is a room.
+It is fore of Starboard Bunk.
+"It's pretty much the standard issue ship's head. Cold fluorescent lighting, stainless steel fixtures. Efficient. Soul-sucking. You wouldn't be at all surprised to see its design aesthetic featured on the front cover of Brutalist Architecture Monthly.[paragraph break]The only escape from this sterile, functional purgatory appears to be an exit to the aft."
+
+The starboard toilet is a container in Starboard Head.
+The starboard toilet is enterable and fixed in place.
+The printed name of starboard toilet is "toilet".
+Instead of going when the player is in the starboard toilet:
+	say "You might have an easier time if you stand up first."
+Before exiting when the player is in the starboard toilet:
+	say "You stand up. The automatic flushing mechanism clicks and a rush of water follows.";
+After entering when the player is in the starboard toilet:
+	say "You sit down. The seat is surprisingly chilly. You briefly wonder if the port side head has heated seats.";
+
+Understand "flush [something]" as flushing when player is in Starboard Head or player is in starboard toilet.
+Flushing is an action applying to one thing.
+Carry out flushing a starboard toilet:
+	say "You wave your hand across the occupancy sensor. A rush of water follows.";
+		now everything enclosed by starboard toilet is off-stage.
+Instead of flushing toilet when player is in starboard toilet:
+	say "It's one of those automatic flushing types. You have to stand up."
+
+[ Level B, Section 3 ]
+Medical Waiting Room is a room.
+It is port of Forward Crew Corridor.
+"A single, large painting decorates the artificial wood paneled walls and there's something that looks like a framed diploma by the door to forward.[paragraph break]Besides the door to forward, the only other way out is starboard."
+
+The painting is scenery in Medical Waiting Room.
+"The painting is comprised mostly of an open field. Toward the right, there's a white house with a boarded up front door, and a small mailbox. The style suggests it was either painted by an A.I. or Grant Wood on a raging bender."
+
+The diploma is scenery in Medical Waiting Room.
+"Hmm. Dr. T.J. Eckleburg. University of West Egg. Sounds made up."
+
+A couch is a supporter in Medical Waiting Room.
+It is fixed in place and enterable.
+Before entering couch:
+	say "Hmm. Looks comfortable, I guess.";
+
+A magazine rack is a supporter in Medical Waiting Room.
+It is fixed in place.
+Instead of taking magazine rack, say "You've got choices. Do you prefer architecture, yoga, or physical therapy?"
+
+Brutalist Architecture Monthly is on the magazine rack.
+The description is "Special Issue: Designing ship's heads with an eye on minimalism, utilitarianism, and three other -isms."
+Understand "Architecture Magazine" as Brutalist Architecture Monthly.
+
+Yoga Practitioner's Digest is on the magazine rack.
+The description is "101 uses for used yoga mats! You'll be amazed at the things we came up with."
+Understand "Yoga Magazine" as Yoga Practitioner's Digest.
+
+Journal of Physical Therapy is on the magazine rack.
+The description is "Special Issue: Yoga in the Rec Room? It's not just a fad!"
+Understand "Physical Therapy Magazine" as Journal of Physical Therapy.
+
+Forward Crew Corridor is a room.
+It is port of Starboard Bunk.
+"Part of a long corridor that runs fore to aft. All along the wall, at eye level on both sides, is a continuous red stripe broken up only once with the words 'USS Icarus'[paragraph break]There's a doorway to port labeled Med Bay and another to starboard labeled Crew Bunk. There's also a bulkhead labeled Forward Junction B to forward, though the line of lighted chevrons embedded in the floor seems to be beckoning you to head aft."
+
+Starboard Bunk is a room.
+It is starboard of Forward Crew Corridor and aft of Starboard Head.
+"A pair of three-tier bunks are the only furnishings in this room. Crisp white sheets and identical navy blue blankets, neatly tucked in at the sides, offer about as much excitement as the stainless steel fixtures of the ship's head next door.[paragraph break]The head is to forward and there's an open doorway to port."
+
+The starboard three-tier bunk is a supporter in Starboard Bunk.
+It is fixed in place and enterable.
+The printed name is "bunk".
+
+The unlocked footlocker is a closed container in Starboard Bunk. It is openable and enterable.
+Understand "locker" as unlocked footlocker when the player is in Starboard Bunk.
+The description is "[italic type]Jumpin['] Jehosaphat! An unlocked footlocker! It's like a standing invitation to rifle through the contents. If it weren't for unlocked footlockers, there'd be no thievery in this galaxy![roman type][line break]".
+After entering unlocked footlocker, say "It's a tight squeeze. And honestly, you look a little silly."
+
+The red key card is in the footlocker.
+The description is "Level B: Bridge Access".
+
+The jelly donut is in the footlocker.
+The jelly donut is edible.
+
+[ Level B, Section 4 ]
+Rec Room is a room.
+It is port of Main Crew Corridor.
+"There's a pair of dirty sweat socks in the middle of the floor, which explains the smell. Otherwise, the room seems to be pulling double duty as a lounge and a workout room. Someone's taped a poster up on the wall, next to the television.[paragraph break]The only exit is to starboard."
+
+The sofa is a supporter in Rec Room.
+It is fixed in place and enterable.
+Understand "couch" as sofa.
+
+The television is scenery in Rec Room.
+The description is "It's switched off. And naturally, there's no remote in site."
+Instead of taking television, say "It's firmly bracketed to the wall. Probably so it won't get stolen."
+Understand "TV" as television.
+
+The poster is scenery in Rec Room.
+"Stellar Patrol: It's not just a job, it's an adventure!"
+Instead of taking the poster, say "Whoever put it up used a lot of tape. I don't think it's coming down anytime soon."
+
+The yoga mat is in the Rec Room.
+The description is "Thick closed-cell neoprene rubber about two meters long. Industrial strength construction. No way this was a free gift from some TV offer."
+
+The pair of dirty sweat socks are in the Rec Room.
+Instead of taking the pair of dirty sweat socks, say "Gross! No way."
+
+Main Crew Corridor is a room.
+It is aft of Forward Crew Corridor and fore of Aft Crew Corridor.
+It is starboard of Rec Room and port of Mess Hall.
+"The middle of a long corridor that runs the length of the ship. Something smells pretty good coming from the starboard direction. Something to port smells a little off. Lighted chevrons in the floor are pointing aft. And here's you, standing in the middle of it all, wondering what to do.[paragraph break]There are doorways to port and starboard. The corridor continues fore and aft."
+
+Mess Hall is a room.
+It is starboard of Main Crew Corridor and fore of Kitchen.
+"The room is dominated by a large, rectangular table with bench seating all around its perimeter for about a dozen people. Along the starboard wall there are small, rectangular openings labeled trash, recycling, and tray return.[paragraph break]There's a doorway back to the corridor on the port side and another doorway to aft."
+
+The bench seat is a a supporter in Mess Hall.
+It is fixed in place and enterable.
+
+The mess table is a supporter in Mess Hall.
+It is fixed in place and enterable.
+Understand "table" as mess table when the player is in Mess Hall.
+
+The dinner tray is a supporter on the mess table.
+It is portable.
+
+The tater tot is on the dinner tray.
+It is edible.
+The description is  "Gosh! Somebody didn't finish their tots!"
+
+The tray return is a container in Mess Hall.
+It is fixed in place and open.
+Does the player mean taking the tray return: it is very unlikely.
+After inserting into tray return:
+	say "After a brief rumbling of the conveyor belt, the [noun] disappears.";
+	remove the noun from play.
+
+The trash bin is a container in Mess Hall.
+It is fixed in place and open.
+After inserting into trash bin:
+	say "You hear a muted zap and catch a slight whiff of smoke. Hope you weren't too attached to that [noun].";
+	remove the noun from play.
+
+The recycle bin is a container in Mess Hall.
+
+[ Level B, Section 5 ]
+Port Bunk is a room.
+It is port of Aft Crew Corridor and fore of Port Head.
+"A familiar looking pair of three-tier bunks are the only furnishings in this room. Their white sheets and navy blue blankets, all neatly tucked in at the sides, are about as dull and uninspiring as the rest of the ship.[paragraph break]There's an open doorway to starboard. and another doorway to aft."
+
+The port three-tier bunk is a supporter in Port Bunk.
+It is fixed in place and enterable.
+The printed name is "bunk".
+
+The locked footlocker is a container in Port Bunk.
+It is closed and locked.
+Understand "locker" as locked footlocker when the player is in Port Bunk.
+The description is "A locked footlocker with a laser etched plastic tag reading, 'S. Stevenson - Martian Army.'"
+	
+Aft Crew Corridor is a room.
+It is starboard of Port Bunk and fore of Level B Aft Junction.
+"The red stripe wall motif continues in this fore to aft corridor, with the words 'USS Icarus' reminding you of the ship you're on. As if you needed reminding.[paragraph break]Besides the obvious exits fore and aft, there's a doorway to port. Though the lighted chevrons in the floor are pointing aft."
+
+Mess Kitchen is a room.
+It is aft of Mess Hall and fore of the upper dumbwaiter opening.
+"This must be where that scrumptious smell was coming from. But rather than fixating on food, your attention is caught by the meter high opening in the wall to aft.[paragraph break]Besides the hole in the wall to aft, the only other obvious exit is to forward."
+
+The upper dumbwaiter opening is an open door.
+It is aft of Mess Kitchen and fore of Upper Dumbwaiter Shaft.
+The printed name is "dumbwaiter opening".
+The description is "Looks like a miniature elevator...a dumbwaiter, isn't it?"
+Understand "hole in the wall" as the upper dumbwaiter opening.
+Understand "hole" as the upper dumbwaiter opening.
+
+The prep table is a supporter in the Mess Kitchen.
+It is fixed in place.
+
+The genuine Elvis collector's plate is a supporter in Mess Kitchen.
+It is not fixed in place.
+The description is "Would you look at that! A genuine Elvis collector's plate with that scene from Jailhouse Rock. Autographed and with a stamp of authenticity from The Frobozz Mint. Pretty swanky."
+
+The chocolate chip cookie is on the plate.
+It is edible.
+After eating chocolate chip cookie:
+	say "Mmm...so chocolaty, bruh.";
+	remove chocolate chip cookie from play.
+
+The freezer is a closed container in Mess Kitchen.
+It is fixed in place and openable.
+
+The frozen red herring is in the freezer.
+It is edible.
+Understand "fish" as the frozen red herring.
+After eating red herring:
+	say "Move over Trout Pops! Frozen red herring is so delish!"
+
+The microwave is a closed container in Mess Kitchen.
+It is fixed in place and openable.
+The description is "Sturdy stainless steel with a little label on the door that says: Amana Commercial 1000W."
+Instead of switching on the microwave, say "The interior light comes on and there's a whirring noise."
+Instead of switching off the microwave, say "The microwave goes dark."
+Instead of switching on the microwave when microwave is open, say "The microwave beeps at you. The words 'Close Door' scroll across its display."
+Instead of switching on the microwave when the frozen red herring is inside the microwave:
+	say "The microwave hums. After a few seconds there's a loud pop, and fish splatters everywhere, coating the inside. Whoever cleans this place is not going to be happy.";
+	remove frozen red herring from play.
+
+[ Level B, Section 6 ]
+Port Head is a room.
+It is aft of Port Bunk.
+"A standard issue ship's head, with stainless steel fixtures all around. The only exit is forward."
+
+The port toilet is a container in the Port Head.
+It is fixed in place and enterable.
+The printed name of port toilet is "toilet".
+Understand "toilet" as port toilet when player is in Port Head.
+Understand "flush [something]" as flushing when player is in Port Head or player is in port toilet.
+Carry out flushing a port toilet:
+	say "You wave your hand across the occupancy sensor. Nothing happens. Looks like your going to have to do your business in the Starboard Head. This one's broken.";
+
+The waterlogged key card is in the port toilet.
+The description is "It looks like it might have once said 'Level C Engineering' on the card, but the printing is mostly faded. Even the yellow background color has bleached out. Kind of makes you wonder if this card even works."
+	
+Level B Aft Junction is a room.
+It is aft of Aft Crew Corridor and up from Level C Aft Junction.
+"There are ladders going up and down. Doorways lead fore and aft. The doorway to aft is steciled with the words, 'Life Pod B'."
+
+Upper Dumbwaiter Shaft is a room.
+It is aft of the upper dumbwaiter opening and up from Lower Dumbwaiter Shaft.
+"It's a tight squeeze, but even an out of shape science officer cadet third class should be able to shimmy down though the opening to see what's below. Or you can give up and just crawl out to forward."
+
+Life Pod B is a dark room.
+It is aft of Level B Aft Junction.
+"There's a semi-circular arrangement of six deceleration couches in this cramped room."
+
+The Life Pod B deceleration couch is a supporter in Life Pod B.
+It is fixed in place and enterable.
+
+The Life Pod B launch button is a switched off device on the Life Pod B deceleration couch.
+It is fixed in place.
+The printed name of Life Pod B launch button is "launch button".
+Understand "press [something switched off]" as switching on. 
+Every turn when Life Pod B launch button is switched on and turn count is less than 100:
+	say "The pod door slides shut with the hiss of a pneumatic actuator. There's a series of loud pops as explosive bolts detonate to release the life pod from the ship. A few seconds later, the pod's engines rumble to life. Through a tiny portal, you watch the image of the USS Icarus shrink until it's lost to the blackness of space.";
+	end the story saying "Congratulations Science Officer Cadet Third Class! It looks like you're going to make it."
+Every turn when Life Pod B launch button is switched on and turn count is greater than 100:
+	say "Nothing happens. Oh right, you're stuck in a singularity.[one of]Sucks to be you.[or]Relativity is such a drag.[or]I wonder what Jennifer and whatsername are up to?[at random]".
+
+Rule for printing the description of a dark room:
+	say "[italic type]Hmm. During muster drills, the life pod lights were always on.[roman type] You feel around on the wall. There's no light switch in here, so the problem must be somewhere else." instead.
+
+[ Level C - fore to aft ]
+
+[ Level C, Section 1 ]
+Life Pod C is a dark room.
+It is fore of Level C Forward Junction.
+"There's a semi-circular arrangement of six deceleration couches in this cramped room."
+
+The Life Pod C deceleration couch is a supporter in Life Pod C.
+It is fixed in place and enterable.
+
+The Life Pod C launch button is a switched off device on the Life Pod C deceleration couch.
+It is fixed in place.
+The printed name of Life Pod C launch button is "launch button".
+Understand "press [something switched off]" as switching on.
+Every turn when turn count is less than 100 and Life Pod C launch button is switched on:
+	say "The pod door slides shut with the hiss of a pneumatic actuator. There's a series of loud pops as explosive bolts detonate to release the life pod from the ship. A few seconds later, the pod's engines rumble to life. Through a tiny portal, you watch the image of the USS Icarus shrink until it's lost to the blackness of space.";
+	end the story saying "Congratulations Science Officer Cadet Third Class! It looks like you're going to make it."
+Every turn when Life Pod C launch button is switched on and turn count is greater than 100:
+	say "Nothing happens. Oh right, you're stuck in a singularity.[one of]Sucks to be you.[or]Relativity is such a drag.[or]I wonder what Jennifer and whatsername are up to?[at random]".
+
+[ Level C, Section 2 ]
+Level C Forward Junction is a room.
+It is aft of Life Pod C and fore of Bulkhead C1.
+"There are two doors here. The one to fore is labeled Life Pod C. To aft is a bulkhead labeled as Engineering. It has a placard affixed to it. There's also a ladder going up."
+
+The Level C Forward placard is scenery in Level C Forward Junction.
+"Engineering access. Yellow key card holders only."
+
+Bulkhead C1 is a door.
+It is fore of Forward Engineering and aft of Level C Forward Junction.
+It is closed and locked.
+The yellow key card unlocks Bulkhead C1.
+
+[ Level C, Section 3 ]
+Forward Engineering is a room.
+It is aft of Bulkhead C1 and fore of electrical cables.
+"There are a lot of important looking switches, panels, and gauges here, but none of it makes much sense to you. What does register, however, is the mass of sparking bundle of electrical cables crisscrossing the floor on the aft side of the room. Ironically, it's situated right under a safety placard.[paragraph break]Exits are fore and aft...if you want to risk it."
+
+The safety placard is scenery in Forward Engineering.
+The description is "The placard reads: 'Safety is everyone's job. Days without accidents: 0'".
+
+The forward bundle of cables is in Forward Engineering.
+The printed name of forward bundle of cables is "bundle of cables".
+The description is "What a mess. It looks like a cable tray fell from the ceiling and dropped live wires on the floor. You'll need something to insulate yourself if you're planning to get past it."
+Instead of taking forward bundle of cables, say "Yeah, right! It not the voltage so much as the amps that kills, you know."
+After dropping yoga mat when location is Forward Engineering:
+	say "The yoga mat makes a pretty good electrical insulator. It might just be safe to cross those cables now.";
+	move yoga mat to electrical cables.
+Instead of going aft when player is in Forward Engineering, say "Across those exposed cables? No way!  It looks like a hissing snake...and it does not want to be friends! You'd need about two meters of good electrical insulation to make it safe."
+Instead of going aft when player is in Forward Engineering and yoga mat is in electrical cables:
+	say "Hey, it worked. You're not dead anyway.";
+	move player to Aft Engineering.
+
+[ Level C, Section 3.5 Electrical cables]
+The electrical cables is a room.
+	It is aft of Forward Engineering and fore of Aft Engineering.
+
+[ Level C, Section 4]
+Aft Engineering is a room.
+It is aft of electrical cables and fore of Storage Corridor.
+"There are rows and rows of important looking switches, panels, and gauges here, but none of it makes much sense to you. What does register, however, is the fine white powder covering the floor and everything else. It looks like the fire suppression system dumped a full load of class C extinguishing agent all over everything.[paragraph break]There's also a metal access panel on the wall labeled Electrical Load Panel. Even a lowly science officer cadet knows that [italic type]load panel[roman type] means circuit breakers.[paragraph break]There's an exit to aft and a bunch of downed electrical cables to forward."
+
+The aft bundle of cables is in Aft Engineering.
+The printed name of aft bundle of cables is "bundle of cables".
+The description is "What a mess. It looks like a cable tray fell from the ceiling and dropped live wires on the floor. You'll need something to insulate yourself if you're planning to get past it."
+Instead of taking aft bundle of cables:
+	say "Yeah, right! It not the voltage so much as the amps that kills, you know."
+
+After dropping yoga mat when location is Aft Engineering:
+	say "The yoga mat makes a pretty good electrical insulator. It might just be safe to cross those cables.";
+	move yoga mat to electrical cables.
+
+Instead of going fore when player is in Aft Engineering, say "Um, maybe that's not such a good idea. It looks like there's some downed electrical cables blocking the way. Staying right here seems to be the best option. Unless you've got some industrial strength neoprene insulation."
+Instead of going fore when player is in Aft Engineering and yoga mat is in electrical cables:
+	say "Hey, it worked. You're not dead anyway.";
+	move player to Forward Engineering.
+
+The white powder is in Aft Engineering.
+Understand "snort [something]" as taking when player is in Aft Engineering.
+Instead of taking white powder when the player is wearing face hugger, say "The face hugger just says, no."
+Instead of taking white powder, say "[italic type][one of]Good nyborg, man![or]Say hello to my lil['] friend![purely at random][roman type]".
+
+The electrical load panel is a container in Aft Engineering.
+It is fixed in place and openable.
+It is closed.
+Understand "circuit breakers" as electrical load panel.
+Understand "breaker panel" as electrical load panel.
+Understand "breaker box" as electrical load panel.
+
+The 200A double pole breaker is a switched off device in the electrical load panel. It is fixed in place. 
+Understand "flip [something] on" as switching on.
+Understand "flip [something]" as switching on.
+Understand "reset [something]" as switching on when player is in Aft Engineering.
+Carry out switching on the 200A double pole breaker:
+	now Life Pod B is lighted;
+	now Life Pod C is lighted.
+Carry out switching off the 200A double pole breaker:
+	now Life Pod B is dark;
+	now Life Pod C is dark.
+
+[ Level C, Section 5 ]
+Engineering Stores is a room.
+It is port of Storage Corridor.
+"A cramped little storage area, just big enough for a shelving unit and a workbench. The only exit is to starboard."
+
+The shelving unit is a supporter in Engineering Stores.
+It is fixed in place.
+
+The empty cardboard box is on the shelving unit.
+The description is "The label reads, '200 Amps, double pole circuit breaker. Suitable for terrestrial residential installation only. Use in non-certified applications may cause spurious tripping and other undesirable results.' Looks like the company's cutting corners on supplies again."
+
+The workbench is a supporter in Engineering Stores.
+It is fixed in place.
+
+The electrical diagram is on the workbench.
+The description is "The diagram appears to be a schematic of the entire electrical system throughout the ship. Too bad you didn't study electrical engineering instead of theoretical astrophysics. Besides the heavy red lines running from engineering to the life pods, everything else looks like hieroglyphics."
+
+Storage Corridor is a room.
+It is aft of Aft Engineering and fore of Bulkhead C2.
+It is starboard of Engineering Stores and port of Kitchen Stores.
+"A short passageway that connects four areas of C deck. There's Engineering to forward and Engineering Stores to port. Or you could go starboard to Kitchen Stores. The only other possibility is Bulkhead C2 to aft."
+
+Kitchen Stores is a room.
+It is starboard of Storage Corridor and fore of the lower dumbwaiter opening.
+"It's wall to wall boxes and canned goods in here. Powdered milk, pancake mix... ooh, and peaches! Millions of peaches! But alas, everything is locked away behind a wire mesh cage. Either it's to secure the foodstuffs during turbulence, or to keep science officer cadets from absconding with unauthorized snacks.[paragraph break]There's a doorway to port and a dumbwaiter to aft."
+
+The lower dumbwaiter opening is an open door.
+It is aft of Kitchen Stores and fore of the Lower Dumbwaiter Shaft.
+The printed name is "dumbwaiter opening".
+
+[ Level C, Section 6 ]
+Bulkhead C2 is a door.
+It is fore of Level C Aft Junction and aft of Storage Corridor.
+It is closed and locked.
+The yellow key card unlocks Bulkhead C2.
+Instead of opening Bulkhead C2, say "It seems to be jammed. If you were Bruce Willis, you'd probably get around it by crawling through some ductwork... or an elevator shaft."
+
+Level C Aft Junction is a room.
+It is aft of Bulkhead C2 and down from Level B Aft Junction.
+"There is a door to forward labeled Bulkhead C2 - Engineering, and a ladder going up."
+
+Lower Dumbwaiter Shaft is a room.
+It is aft of the lower dumbwaiter opening and down from the Upper Dumbwaiter Shaft.
+"The only way out is forward. Or up, if you think you can manage the climb. Who's idea was this, crawling into this claustrophobic nightmare?"
+
+[
+	Easter Eggs:
+		"Fire in engineering compartment" warning - reference to Alien 3, opening scene
+		Reference to Emerson's Self-Reliance when asking for "help"
+		Ship's name, USS Icarus, along crew corridor - a reference to Greek mythology
+		"...space is vastly, hugely, mind-bogglingly big" quote - Hitchhiker's Guide to the Galaxy
+		Fragaria Rengoku in Hydroponics - Mr. Rengoku of Demon Slayer: Kimetsu no Yaiba
+		Soundgarden CD in Science Lab - An homage to Black Hole Sun
+		The Big Chair and 'Take us out, Mr. Sulu,' in the Bridge - Star Trek franchise
+		Taxi beads and booklet in Ready Room - Jim Carey SNL skit Jimmy Tango
+		Facehugger in Bio-Reactor Room - Alien franchise
+		This does not spark joy, when getting sucked into space (missing lifepod) - Marie Kondo
+		Unlocked footlocker and Jelly donut in starboard bunk - Stanley Kubrick's Full Metal Jacket
+		Painting in the medical waiting room - Zork I
+		Dr. T.J. Eckleburg, West Egg on diploma in medical waiting room - The Great Gatsby
+		Holographic Dr. Eckleburg - allusion to Emergency Medical Hologram from Star Trek Voyager
+		Blue Screen of Death in medical exam room - Microsoft Windows 10
+		Message on Blue Screen of Death - 2001: A Space Odessey
+		Stellar Patrol poster in Rec Room - Planetfall by Steve Meretzky
+		S. Stevenson, Martian Army on port bunk footlocker - The Sirens of Titan by Kurt Vonnegut
+		Tater tot on dinner tray in mess hall - Napoleon Dynamite
+		Reference to Trout Pops while eating frozen red herring - Late Night with David Letterman
+		Millions of peaches in Kitchen Stores - Peaches by The Presidents of the United States of America
+		Good nyborg! comment when snorting white powder - the animated film Heavy Metal
+		Say hello to my lil' friend, when snorting white powder - Al Pachino in Scarface (1983)
+		Increasingly unhinged overhead announcements inspired by the 1980 film, Airplane!
+]
