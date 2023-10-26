@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F1A17055-13C2-463F-87F8-34F57D68CAC0</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>All Hands Abandon Ship</title>
+            <author>David Lee</author>
+            <headline>A Shipboard Race Against the Clock</headline>
+            <genre>Science Fiction</genre>
+            <firstpublished>2023</firstpublished>
+            <description>It's the same old story, really... A low-ranking officer stuck on a doomed spaceship hurtling headlong toward the inescapable gravitational pull of a quantum singularity. Only a perfect storm of systems failures stands between you and your race to find a serviceable life pod. Good luck, Science Officer Cadet Third Class! You're going to need it.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>All Hands Abandon Ship.pdf</leafname>
+                <description>Instructions, Hints, and Walkthroughs</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>Blue Key Card.png</leafname>
+                <description>Blue Key Card</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>Red Key Card.png</leafname>
+                <description>Red Key Card</description>
+            </auxiliary>
+            <auxiliary>
+                <leafname>Yellow Key Card.png</leafname>
+                <description>Yellow Key Card</description>
+            </auxiliary>
+        </resources>
+        <cover>
+            <format>png</format>
+            <height>576</height>
+            <width>1024</width>
+            <description>All Hands Abandon Ship</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2023-10-25</releasedate>
+                    <version>42</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2023-10-25</originated>
+        </colophon>
+        <glulx>
+            <serial>231025</serial>
+            <release>42</release>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>
