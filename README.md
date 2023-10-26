@@ -24,4 +24,4 @@ How to use these files to recreate the game:
 8.  On the Inform 7 application toolbar, click the Release button.
 9.  In the Inform 7 application, once again click Release > Open Materials Folder (CTRL + SHIFT + M)
 10. Copy the `Small Cover.png` image to the `Release` folder to replace the existing (not small) image.
-11. Open the Release folder and double-click index.html to play.
+11. Open the `Release` folder and double-click index.html to play.
