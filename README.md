@@ -19,7 +19,7 @@ How to use these files to recreate the game:
 3.  Enter _AbandonShip_ for the name of the project and click Start.
 4.  Delete all text in the Source pane of Inform 7 and replace it with the contents of `story.txt`
 5.  Copy the files from this archive's `materials` folder.
-6.  In the Inform 7 application, click Release > Open Materials Folder (CTRL + SHIFT + M)
+6.  In the Inform 7 application, click Release > Open Materials Folder (CTRL + SHIFT + M).
 7.  Paste the materials files into the resulting folder.
 8.  On the Inform 7 application toolbar, click the Release button.
 9.  In the Inform 7 application, once again click Release > Open Materials Folder (CTRL + SHIFT + M)
