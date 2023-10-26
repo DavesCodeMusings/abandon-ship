@@ -33,4 +33,4 @@ How to use the files here to recreate the game:
 11. Open the `Release` folder and double-click index.html to play.
 
 ## Enjoy!
-Plenty more games await you at the [Interactive Fiction Competition](https://ifcomp.org/)
+Plenty more games await you at the [Interactive Fiction Competition](https://ifcomp.org/).
