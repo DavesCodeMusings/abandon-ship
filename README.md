@@ -21,14 +21,14 @@ Use the [web-based parser](https://davescodemusings.github.io/abandon-ship/) hos
 
 How to use the files here to recreate the game:
 1.  Open the [Inform 7 application](https://ganelson.github.io/inform-website/).
-2.  Click File > New Project (CTRL + N)
+2.  Click File > New Project (CTRL + N).
 3.  Enter _AbandonShip_ for the name of the project and click Start.
 4.  Delete all text in the Source pane of Inform 7 and replace it with the contents of `story.txt`
 5.  Copy the files from this archive's `materials` folder.
 6.  In the Inform 7 application, click Release > Open Materials Folder (CTRL + SHIFT + M).
 7.  Paste the materials files into the resulting folder.
 8.  On the Inform 7 application toolbar, click the Release button.
-9.  In the Inform 7 application, once again click Release > Open Materials Folder (CTRL + SHIFT + M)
+9.  In the Inform 7 application, once again click Release > Open Materials Folder (CTRL + SHIFT + M).
 10. Copy the `Small Cover.png` image to the `Release` folder to replace the existing (not small) image.
 11. Open the `Release` folder and double-click index.html to play.
 
