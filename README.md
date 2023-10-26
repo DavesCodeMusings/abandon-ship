@@ -1,3 +1,5 @@
+![AllHandsAbandonShip](materials/Cover.png)
+
 # All Hands Abandon Ship
 
 My entry into 2023s Interactive Fiction Competition (https://ifcomp.org/)
